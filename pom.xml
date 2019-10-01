@@ -81,9 +81,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <systemPropertyVariables>
-                        <jacoco-agent.destfile>target/jacoco.exec</jacoco-agent.destfile>
-                    </systemPropertyVariables>
+                    <destFile>target/jacoco.exec</destFile>
                 </configuration>
             </plugin>
 
